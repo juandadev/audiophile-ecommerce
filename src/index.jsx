@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Router from "./router/Router";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>Hello World!</div>
+    <Router />
   </React.StrictMode>,
   document.getElementById("root")
 );
